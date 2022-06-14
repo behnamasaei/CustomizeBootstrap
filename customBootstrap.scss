@@ -73,13 +73,6 @@ $utilities: ();
 $utilities: map-merge(
   (
 
-    "margin-end": (
-      responsive: true,
-      property: SetDirectionWithLanguage('margin','end'),
-      class: me,
-      values: map-merge($spacers, (auto: auto))
-    ),
-
     // scss-docs-end utils-borders
     // Sizing utilities
     // scss-docs-start utils-sizing
